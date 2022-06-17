@@ -9,8 +9,9 @@ int main(){
 		sum += num[i];
 		i += 1;
 	}
+	printf("\n");
 	for(i=0;i<=7;i++){
-		printf("%d\n", &num[i]);
+		printf("%d\n", num[i]);
 	}
 	printf("\nSum is %d", sum);
 	return 0;
